@@ -1,5 +1,5 @@
 import React from "react";
-import AppHeaderLinks from "./AppHeaderLinks";
+import AppHeaderLink from "./AppHeaderLink";
 
 class AppHeader extends React.Component {
   render() {
@@ -11,8 +11,8 @@ class AppHeader extends React.Component {
             <a className="nav-link active" aria-current="page" href="#">
               Home
             </a>
-            <AppHeaderLinks name="Features" />
-            <AppHeaderLinks name="Contact" />
+            <AppHeaderLink name="Features" />
+            <AppHeaderLink name="Contact" />
           </nav>
         </div>
       </header>

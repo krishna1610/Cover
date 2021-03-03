@@ -1,6 +1,6 @@
 import React from "react";
 
-class AppFooterLinks extends React.Component {
+class AppFooterLink extends React.Component {
   render() {
     return (
       <a href="https://getbootstrap.com/" class="text-white">
@@ -10,4 +10,4 @@ class AppFooterLinks extends React.Component {
   }
 }
 
-export default AppFooterLinks;
+export default AppFooterLink;

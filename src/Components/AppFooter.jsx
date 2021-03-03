@@ -1,13 +1,13 @@
 import React from "react";
-import AppFooterLinks from "./AppFooterLinks";
+import AppFooterLink from "./AppFooterLink";
 
 class AppFooter extends React.Component {
   render() {
     return (
       <footer class="mt-auto text-white-50">
         <p>
-          Cover template for <AppFooterLinks name="Bootstrap" />, by{" "}
-          <AppFooterLinks name="@mdo" />.
+          Cover template for <AppFooterLink name="Bootstrap" />, by{" "}
+          <AppFooterLink name="@mdo" />.
         </p>
       </footer>
     );

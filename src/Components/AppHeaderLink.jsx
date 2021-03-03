@@ -1,6 +1,6 @@
 import React from "react";
 
-class AppHeaderLinks extends React.Component {
+class AppHeaderLink extends React.Component {
   render() {
     return (
       <a className="nav-link" href="#">
@@ -10,4 +10,4 @@ class AppHeaderLinks extends React.Component {
   }
 }
 
-export default AppHeaderLinks;
+export default AppHeaderLink;
